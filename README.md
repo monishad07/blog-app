@@ -26,37 +26,33 @@ Authentication
 -> bcrypt (Password hashing)
 
 # Project Structure
-blog-app/
+blog-app/ <br>
 │
-├── blog-frontend/
-│   ├── src/
-│   │   └── App.js
-│   └── package.json
+├── blog-frontend/ <br>
+│   ├── src/ <br>
+│   │   └── App.js <br>
+│   └── package.json <br>
 │
-├── blog-backend/
-│   ├── app.js
-│   └── package.json
+├── blog-backend/ <br>
+│   ├── app.js <br>
+│   └── package.json <br>
 │
-└── README.md
+└── README.md 
 
 # Installation & Setup
-1️⃣ Clone Repository
-git clone <your-repo-link>
-cd blog-app
-2️⃣ Backend Setup
-cd blog-backend
-npm install
-node app.js
+1. Backend Setup <br>
+npm install <br>
+node app.js <br>
 
-Server runs on:
+Server runs on: <br>
 
-http://localhost:3000
-3️⃣ Frontend Setup
-cd blog-frontend
-npm install
-npm start
+http://localhost:3000 <br>
+2. Frontend Setup <br>
+cd blog-frontend <br>
+npm install <br>
+npm start <br>
 
-App runs on:
+App runs on: <br>
 
 http://localhost:3001 (or 3000 depending on config)
 # API Endpoints
