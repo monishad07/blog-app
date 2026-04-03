@@ -2,39 +2,39 @@
 A modern full-stack blog application built using React, Node.js, Express, and MongoDB with authentication and CRUD operations.
 
 # Features
--> User Authentication (Signup & Login)
--> Create Blog Posts
--> Edit Blog Posts
--> Delete Blog Posts
--> View All Posts
--> MongoDB Database Integration
--> JWT-based Authentication
--> Responsive Dark UI
+-> User Authentication (Signup & Login) <br>
+-> Create Blog Posts <br>
+-> Edit Blog Posts <br>
+-> Delete Blog Posts <br>
+-> View All Posts <br>
+-> MongoDB Database Integration <br>
+-> JWT-based Authentication <br>
+-> Responsive Dark UI <br>
 
 # Tech Stack
-Frontend
--> React
--> Tailwind CSS
--> Fetch API
-Backend
--> Node.js
--> Express.js
-Database
--> MongoDB (MongoDB Atlas)
-Authentication
--> JWT (JSON Web Token)
--> bcrypt (Password hashing)
+Frontend <br>
+-> React <br>
+-> Tailwind CSS <br>
+-> Fetch API <br>
+Backend <br>
+-> Node.js <br>
+-> Express.js <br>
+Database <br>
+-> MongoDB (MongoDB Atlas) <br>
+Authentication <br>
+-> JWT (JSON Web Token) <br>
+-> bcrypt (Password hashing) <br>
 
 # Project Structure
 blog-app/ <br>
 │
 ├── blog-frontend/ <br>
 │   ├── src/ <br>
-│   │   └── App.js <br>
+│   │   └── App.js 
 │   └── package.json <br>
 │
 ├── blog-backend/ <br>
-│   ├── app.js <br>
+│   ├── app.js 
 │   └── package.json <br>
 │
 └── README.md 
