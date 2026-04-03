@@ -55,30 +55,30 @@ npm start <br>
 App runs on: <br>
 
 http://localhost:3001 (or 3000 depending on config)
+
 # API Endpoints
-1 Authentication
-Method	Endpoint	Description
-POST	/signup	Create new user
-POST	/login	Login user
-2 Posts
-Method	Endpoint	Description
-GET	/posts	Get all posts
-POST	/posts	Create post
-PUT	/posts/:id	Update post
-DELETE	/posts/:id	Delete post
-3 Authentication Flow
+Authentication<br>
+
+POST /signup → Create a new user account<br>
+POST /login → Login user and receive JWT token<br>
+
+Posts<br>
+
+GET /posts → Fetch all blog posts<br>
+POST /posts → Create a new post<br>
+PUT /posts/:id → Update an existing post using its ID<br>
+DELETE /posts/:id → Delete a post using its ID<br>
+
+# Authentication Flow
 User signs up with username & password
 Password is hashed using bcrypt
 User logs in → receives JWT token
 Token stored in localStorage
 Token used for protected API access
-📸 Screenshots
 
-Add screenshots here for better presentation
-
-Login Page
-Blog Dashboard
-Add/Edit Post
+-> Login Page
+-> Blog Dashboard
+-> Add/Edit Post
 
 # Author
 Monisha
