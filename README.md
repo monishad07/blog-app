@@ -25,19 +25,6 @@ Authentication <br>
 -> JWT (JSON Web Token) <br>
 -> bcrypt (Password hashing) <br>
 
-# Project Structure
-blog-app/ <br>
-│
-├── blog-frontend/ <br>
-│   ├── src/ <br>
-│   │   └── App.js 
-│   └── package.json <br>
-│
-├── blog-backend/ <br>
-│   ├── app.js 
-│   └── package.json <br>
-│
-└── README.md 
 
 # Installation & Setup
 1. Backend Setup <br>
